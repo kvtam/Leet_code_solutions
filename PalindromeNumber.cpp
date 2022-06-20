@@ -39,7 +39,7 @@ public:
             return false;
         }
         
-        int reverse=0;
+        long int reverse=0;
         int forward=x;
         int remainder=0;
         while(x!=0){  //reverse the number
