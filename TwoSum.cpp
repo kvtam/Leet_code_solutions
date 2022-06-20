@@ -35,7 +35,7 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
       //  std::sort(nums.begin(),nums.end());
-    
+    //Sorting doesn't work for this problem because solution refers to the given vector
         vector<int>result;
         for(int i=0;i<nums.size()-1;i++){
             for(int j=1;j<nums.size();j++){
